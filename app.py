@@ -9,8 +9,8 @@ app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # ✅ File paths
-MODEL_PATH = os.path.join(BASE_DIR, 'optimized_xgboost.joblib')
-SCALER_PATH = os.path.join(BASE_DIR, 'scaler.joblib')
+MODEL_PATH = os.path.join(BASE_DIR, 'Optimized_Xgboost_ML_Model.joblib')
+SCALER_PATH = os.path.join(BASE_DIR, 'Scaler_Ml_Model.joblib')
 
 # ✅ Load model & scaler safely
 try:
